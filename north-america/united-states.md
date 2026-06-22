@@ -147,3 +147,6 @@ Yggdrasil configuration file to peer with these nodes.
 * Council Bluffs, IA, axxa.dev, operated by [Adalbert Alexandru](https://axxa.dev)
   * `tls://ygg-google.axxa.dev:18080`
   * `quic://ygg-google.axxa.dev:18083`
+### Other
+* Dedicated server
+* tls://192.3.13.16:8118
