@@ -149,4 +149,4 @@ Yggdrasil configuration file to peer with these nodes.
   * `quic://ygg-google.axxa.dev:18083`
 ### Other
 * Dedicated server
-* tls://192.3.13.16:8118
+* `tls://192.3.13.16:8118`
