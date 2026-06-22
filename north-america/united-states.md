@@ -8,47 +8,52 @@ Yggdrasil configuration file to peer with these nodes.
 * San Francisco, Digital Ocean, VPS, operated by [marioaugustorama](https://github.com/marioaugustorama)
   * `tcp://165.227.17.198:9002`
 * Los Angeles, Racknerd, IPv4/v6, 1Gbps, meteded, operated by [lcharles123](https://github.com/lcharles123)
-  * `tcp://ip4.nerdvm.mywire.org:8080?key=6342592a45a234afce0966610217f798e4898f6b1607d354fb126c239d05abf7`
-  * `quic://ip4.nerdvm.mywire.org:443?key=6342592a45a234afce0966610217f798e4898f6b1607d354fb126c239d05abf7`
-  * `tcp://ip6.nerdvm.mywire.org:8080?key=6342592a45a234afce0966610217f798e4898f6b1607d354fb126c239d05abf7`
-  * `quic://ip6.nerdvm.mywire.org:443?key=6342592a45a234afce0966610217f798e4898f6b1607d354fb126c239d05abf7`
+  * `tcp://ip4.nerdvm.mywire.org:8080?key=00000000c61d731961a290d127cd3fc03a4c5f3f35b9083559d4c81d48d65854`
+  * `quic://ip4.nerdvm.mywire.org:443?key=00000000c61d731961a290d127cd3fc03a4c5f3f35b9083559d4c81d48d65854`
+  * `tcp://ip6.nerdvm.mywire.org:8080?key=00000000c61d731961a290d127cd3fc03a4c5f3f35b9083559d4c81d48d65854`
+  * `quic://ip6.nerdvm.mywire.org:443?key=00000000c61d731961a290d127cd3fc03a4c5f3f35b9083559d4c81d48d65854`
+* Fremont, operated by [WCIIT](https://worker.informatics.coop/). Rejects peers with high-latency except from Asia and South America.
+  * `tls://ca.us.ygg.informatics.coop:443?key=0000000023fc6ffb62afb79448aefb0943df2e4472cf08bd489f5407378300a2`
 
-### Florida
-
-* Miami, BuyVM, VPS, operated by [termer](https://termer.net/)
-  * `quic://45.61.188.119:9003`
-
-### Georgia
-
-* Marietta, Racknerd, VPS, operated by [termer](https://termer.net/)
-  * `quic://198.23.229.154:9003`
-
-### Illinois
-
-* Chicago, IL operated by [christoofar](https://github.com/christoofar)
-  * `tls://supergay.network:443`
-  * `tls://supergay.network:9001`
-  * `tcp://supergay.network:9002`
-
-### Kansas
-
-* Kansas City, hosted by August Internet, operated by [Marek Küthe](https://mk16.de/)
-  * `tcp://ygg4.mk16.de:1337?key=0000147df8daa1cce2ad4b1d4b14c60a4c69a991b2dfde4e00ba7e95c36c530b`
-  * `tls://ygg4.mk16.de:1338?key=0000147df8daa1cce2ad4b1d4b14c60a4c69a991b2dfde4e00ba7e95c36c530b`
- 
 ### Maryland
 
 * Rockville, MD, operated by [redcathode](https://redcatho.de) - 1 Gbit/s IPv4
   * `tls://redcatho.de:9494`
   * `quic://redcatho.de:9494`
 
+### Minnesota
+
+* Minneapolis, MN Public Node, operated by [Triplebit](https://www.triplebit.org/), 10 Gbit/s, Dual-Stack
+  * `tcp://mn.us.ygg.triplebit.org:9000`
+  * `tls://mn.us.ygg.triplebit.org:993`
+  * `quic://mn.us.ygg.triplebit.org:443`
+  * `ws://mn.us.ygg.triplebit.org:9010`
+
 ### Missouri
- 
+
 * Kansas City, MO Public Node, operated by [IncogNET](https://incognet.io/), 5 Gbit/s, Dual-Stack
   * `tcp://ygg-kcmo.incognet.io:8883`
   * `tls://ygg-kcmo.incognet.io:8884`
   * `quic://ygg-kcmo.incognet.io:8885`
   * `ws://ygg-kcmo.incognet.io:8886`
+
+* Kansas City, MO Public Node, operated by [Triplebit](https://www.triplebit.org/), 10 Gbit/s, Dual-Stack
+  * `tcp://mo.us.ygg.triplebit.org:9000`
+  * `tls://mo.us.ygg.triplebit.org:993`
+  * `quic://mo.us.ygg.triplebit.org:443`
+  * `ws://mo.us.ygg.triplebit.org:9010`
+
+* Lenexa, hosted on IONOS, operated by [Marek Küthe](https://mk16.de/)
+  * `tcp://ygg8.mk16.de:1337?key=0000000b0683e38d8cb3085cfbf217edf0f0b2de76bb5ac7f02a94cd42a3fed9`
+  * `tls://ygg8.mk16.de:1338?key=0000000b0683e38d8cb3085cfbf217edf0f0b2de76bb5ac7f02a94cd42a3fed9`
+  * `quic://ygg8.mk16.de:1339?key=0000000b0683e38d8cb3085cfbf217edf0f0b2de76bb5ac7f02a94cd42a3fed9`
+  * `ws://ygg8.mk16.de:1340?key=0000000b0683e38d8cb3085cfbf217edf0f0b2de76bb5ac7f02a94cd42a3fed9`
+
+### Nevada
+
+* Las Vegas, NV, operated by [newsdeef](https://newsdeef.eu) @ 1 Gbit/s Dual-Stack
+  * `tls://srv.newsdeef.eu:59999`
+  * `tcp://srv.newsdeef.eu:9999`
 
 ### New Jersey
 
@@ -61,15 +66,11 @@ Yggdrasil configuration file to peer with these nodes.
 * Portland, OR (10Gbit, AWS ARM64) operated by [christoofar](https://github.com/christoofar)
   * `tls://44.234.134.124:443`
 
-* hosted by Evolution Host via OVH SAS, operated by [Marek Küthe](https://mk16.de/)
-  * `tcp://ygg3.mk16.de:1337?key=000003acdaf2a60e8de2f63c3e63b7e911d02380934f09ee5c83acb758f470c1`
-  * `tls://ygg3.mk16.de:1338?key=000003acdaf2a60e8de2f63c3e63b7e911d02380934f09ee5c83acb758f470c1`
-
 * Hillsboro, OR (Hetzner, AMD x86, IPv4 + IPv6)
   * `tls://ygg.mnpnk.com:443`
 
 ### Pennsylvania
- 
+
 * Allentown, PA Public Node, operated by [IncogNET](https://incognet.io/), 5 Gbit/s, Dual-Stack
   * `tcp://ygg-pa.incognet.io:8883`
   * `tls://ygg-pa.incognet.io:8884`
@@ -78,9 +79,6 @@ Yggdrasil configuration file to peer with these nodes.
 
 ### Texas
 
-* Ft. Worth, TX operated by [christoofar](https://github.com/christoofar)
-  * `tcp://cowboy.supergay.network:9111`
-
 * Ft. Worth, TX operated by [Nyx](https://nyx.everypizza.im)
   * `tcp://ygg.everypizza.im:9441`
 
@@ -88,17 +86,64 @@ Yggdrasil configuration file to peer with these nodes.
 
 * Spanish Fork, UT operated by [jjolly](https://github.com/jjolly)
   * `tls://ygg.jjolly.dev:3443`
+* Salt Lake City, UT operated by [nune @ blitzw.in](https://blitzw.in)
+  * `tls://31.22.111.195:32000`
+
+### Virginia
+
+* Ashburn, VA, Oracle Cloud VPS(Always Free Tier, 480Mbps, Metered), operated by [Twiztid](https://github.com/tvviztid).
+  * `quic://[2603:c020:4015:b937:a1c7:aff8:b558:d1fe]:23165`
+  * `quic://129.80.167.244:23165`
+
+* Ashburn, VA, OpenBSD VPS on Hetzner us-east, operated by [Alexa](https://lxak.net) (1Gbps, dual-stack)
+  * `tcp://ygg-dc.lxak.net:8879`
+  * `tls://ygg-dc.lxak.net:8880`
+
+* Manassas, hosted on Netcup, operated by [Marek Küthe](https://mk16.de/)
+  * `tcp://ygg4.mk16.de:1337?key=000000573433e11f23768b078bcdc10b42712a7b131d6d04b82042ffc0c97df0`
+  * `tls://ygg4.mk16.de:1338?key=000000573433e11f23768b078bcdc10b42712a7b131d6d04b82042ffc0c97df0`
+  * `quic://ygg4.mk16.de:1339?key=000000573433e11f23768b078bcdc10b42712a7b131d6d04b82042ffc0c97df0`
+  * `ws://ygg4.mk16.de:1340?key=000000573433e11f23768b078bcdc10b42712a7b131d6d04b82042ffc0c97df0`
 
 ### Washington
 
-* Liberty Lake, WA operated by jeff.
-  * `tls://23.184.48.86:993`
-  * `tls://[2602:fc24:18:7a42::1]:993`
-  * `quic://23.184.48.86:993`
-  * `quic://[2602:fc24:18:7a42::1]:993`
+* Seattle, WA, axxa.dev, operated by [Adalbert Alexandru](https://axxa.dev)
+  * `tls://ygg-atvps.axxa.dev:18080`
+  * `quic://ygg-atvps.axxa.dev:18083`
+
+* Lynnwood, WA, operated by [Ed Asriyan](https://asriyan.me)
+  * `tcp://ygg1.asriyan.me:23672`
+
+* Liberty Lake, WA operated by [jeff](https://github.com/majestrate).
+  * `tls://23.184.48.86:1443`
+  * `tls://[2602:fc24:18:7a42::1]:1443`
+  * `quic://23.184.48.86:1443`
+  * `quic://[2602:fc24:18:7a42::1]:1443`
+
+* Liberty Lake, WA operated by [3DT](https://3dt.net) - 4 Gbit/s, Dual-Stack
+  * `tcp://leo.node.3dt.net:9002`
+  * `tls://leo.node.3dt.net:9003`
+  * `quic://leo.node.3dt.net:9004`
+  * `wss://leo.node.3dt.net:9005`
 
 * Liberty Lake, WA, Public Node, operated by [IncogNET](https://incognet.io/), 5 Gbit/s, Dual-Stack
   * `tcp://ygg-wa.incognet.io:8883`
   * `tls://ygg-wa.incognet.io:8884`
   * `quic://ygg-wa.incognet.io:8885`
   * `ws://ygg-wa.incognet.io:8886`
+
+
+### New York
+
+* New York City, NY, VPS, operated by [Fijxu (nadeko.net)](https://nadeko.net), 1Gbit/s, DualStack (IPv4+IPv6)
+  * `tcp://marisa.nadeko.net:44441`
+  * `tls://marisa.nadeko.net:44442`
+
+* New York City, NY, VPS, operated by [Fijxu (nadeko.net)](https://nadeko.net), 200Mbit/s down, 800Mbit/s up, IPv4
+  * `tcp://kisume.nadeko.net:44441`
+  * `tls://kisume.nadeko.net:44442`
+ 
+### Iowa
+* Council Bluffs, IA, axxa.dev, operated by [Adalbert Alexandru](https://axxa.dev)
+  * `tls://ygg-google.axxa.dev:18080`
+  * `quic://ygg-google.axxa.dev:18083`

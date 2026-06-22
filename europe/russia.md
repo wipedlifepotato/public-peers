@@ -1,6 +1,6 @@
 # Russia Peers
 
-Operators of Yggdrasil public peers in Russia should consider joining the [Russian Meshnet](https://github.com/russian-meshnet/meshnet-chat-agenda/blob/master/README.md#чаты-и-мосты-в-разных-сетях) and [Yggdrasil of the Renegades](https://github.com/DomesticMoth/shiny-octo-computing-machine) community channels!
+Operators of Yggdrasil public peers in Russia should consider joining the [Russian Meshnet](https://github.com/russian-meshnet/meshnet-chat-agenda/blob/master/README.md#чаты-и-мосты-в-разных-сетях) and [Yggdrasil RU](https://t.me/Yggdrasil_ru) community channels!
 
 Add connection strings from the below list to the `Peers: []` section of your Yggdrasil configuration file to peer with these nodes.
 
@@ -17,19 +17,14 @@ Add connection strings from the below list to the `Peers: []` section of your Yg
   * `tcp://188.225.9.167:18226`
   * `tls://188.225.9.167:18227`
 
-* Moscow, public node, operated by [sergeysedoy97](https://t.me/sergeysedoy97), 1 Gbit/s, Dual-Stack
-  * `tcp://x-mow-0.sergeysedoy97.ru:65533`
-  * `tcp://s-mow-0.sergeysedoy97.ru:65533` *Dual-Stack by Cloudflare Spectrum*
-  * `tls://x-mow-0.sergeysedoy97.ru:65534`
-  * `tls://s-mow-0.sergeysedoy97.ru:65534` *Dual-Stack by Cloudflare Spectrum*
-  * `quic://x-mow-0.sergeysedoy97.ru:65535`
+* Moscow, public nodes, operated by [sergeysedoy97](https://t.me/sergeysedoy97)
+  * `tcp://89.44.86.85:65535`
+  * `quic://89.44.86.85:65535`
+  * `tcp://[2a09:5302:ffff::132a]:65535`
+  * `quic://[2a09:5302:ffff::132a]:65535`
 
-* Moscow, public node, operated by [sergeysedoy97](https://t.me/sergeysedoy97), 200 Mbit/s, Dual-Stack
-  * `tcp://x-mow-1.sergeysedoy97.ru:65533`
-  * `tcp://s-mow-1.sergeysedoy97.ru:65533` *Dual-Stack by Cloudflare Spectrum*
-  * `tls://x-mow-1.sergeysedoy97.ru:65534`
-  * `tls://s-mow-1.sergeysedoy97.ru:65534` *Dual-Stack by Cloudflare Spectrum*
-  * `quic://x-mow-1.sergeysedoy97.ru:65535`
+  * `tcp://94.156.181.85:65535`
+  * `quic://94.156.181.85:65535`
 
 * Моscow, VPS public nodes operated by [gastarbeiter14](https://t.me/gastarbeiter14):
   * node1:
@@ -42,9 +37,6 @@ Add connection strings from the below list to the `Peers: []` section of your Yg
   * `tcp://[2a09:5302:ffff::992]:12403`
   * `tls://45.95.202.21:443`
   * `tls://[2a09:5302:ffff::992]:443`
-
-* Moscow, vps public node, operated by [EKCKABATOP54](androposhtar1029@gmail.com), 100 Mbit/s, IPv4 Only
-  * `tcp://94.103.183.125:7676`
 
 * Moscow, VPS, operated by [Ruslan Gilfanov](https://01.msk.ru.dioni.su/yggdrasil.html), *rate-limited to 10 Gbit/s, IPv4/IPv6*
   * IPv4:
@@ -61,15 +53,27 @@ Add connection strings from the below list to the `Peers: []` section of your Yg
 * Moscow, vps public node, operated by [theshezzee](mailto:thewizard3424@gmail.com), 10 Gbit/s, IPv4 Only
   * `tcp://yggdrasil.1337.moe:7676`
 
-* Moscow, vps public node, operated by [NeonXP](mailto:i@neonxp.ru), IPv4 Only
-  * `tcp://msk1.neonxp.ru:7991`
-  * `tcp://195.2.74.155:7991`
-  * `tls://msk1.neonxp.ru:7992`
-  * `tls://195.2.74.155:7992`
-  * `ws://msk1.neonxp.ru:7993`
-  * `ws://195.2.74.155:7993`
-  * `quic://msk1.neonxp.ru:7994`
-  * `quic://195.2.74.155:7994`
+* Moscow, VPS, public node, operated by [Orbit173](https://github.com/Orbit173), 1 Gbit/s, IPv4/IPv6
+  * `wss://assets.route172.de:443/api/request/media?key=00000000000da547036a01860a9e3a0476a525415801ec34f4e5b59fd6055b88`
+ 
+* Moscow, VPS, public node, operated by [CERT](https://github.com/kzorin52), 10 Gbit/s, IPv4/IPv6
+  * `tcp://ru2.cert.dev:7040`
+  * `tls://ru2.cert.dev:7041`
+  * `quic://ru2.cert.dev:7042`
+  * `ws://ru2.cert.dev:7043`
+
+* Moscow, VPS public node, operated by [loskiq](mailto:loskiq@gmail.com)
+  * `tcp://ygg-ru.lskd.pw:30041`
+  * `tls://ygg-ru.lskd.pw:30042`
+  * `quic://ygg-ru.lskd.pw:30043`
+
+### Odintsovo
+
+* Odintsovo, home public node, operated by [MedDevSystems](https://github.com/MedDevSystems), IPv4 only
+  * `tls://ygg.med-dev-systems.ru:6221`
+
+* Odintsovo, home public node, operated by [Cyberneural](https://t.me/cyberneural)
+  * `tcp://u-neroit.ru:7000`
 
 ### Saint Petersburg
 
@@ -95,6 +99,11 @@ Add connection strings from the below list to the `Peers: []` section of your Yg
 
 * Krasnoyarsk, public node, operated by [multed](https://multed.com/about)
   * `tcp://itcom.multed.com:7991`
+ 
+### Kemerovo
+
+* Kemerovo, public node, 100mbit/s, IPv4 only
+  * `tcp://kem.txlyre.website:1337`
 
 ### Yekaterinburg
 
@@ -118,9 +127,10 @@ Add connection strings from the below list to the `Peers: []` section of your Yg
 
 ### Rostov-on-Don
 
-* Rostov-on-Don, home public node, operated by [lavacat](lavacat@fedora.email) *bandwidth up to 200 Mbit/s*
+* Rostov-on-Don, home public node, operated by [lavacat](lavacat@disroot.org) *bandwidth up to 200 Mbit/s*
   * `tls://vix.duckdns.org:36014`
   * `quic://vix.duckdns.org:36014`
+  * `wss://donotclickthis.link:443/api/v2/socket`
 
 ### Tomsk
 
@@ -130,21 +140,15 @@ Add connection strings from the below list to the `Peers: []` section of your Yg
   * `quic://ip4.01.tom.ru.dioni.su:9002`
   * `ws://ip4.01.tom.ru.dioni.su:9004`
 
-### Kazan
-
-* Kazan, vps public node, operated by [NeonXP](mailto:i@neonxp.ru), IPv4 Only
-  * `tcp://kzn1.neonxp.ru:7991`
-  * `tcp://195.58.51.167:7991`
-  * `tls://kzn1.neonxp.ru:7992`
-  * `tls://195.58.51.167:7992`
-  * `ws://kzn1.neonxp.ru:7993`
-  * `ws://195.58.51.167:7993`
-  * `quic://kzn1.neonxp.ru:7994`
-  * `quic://195.58.51.167:7994`
-
 ### Kursk
 
 * Kursk, dual-stack, dual-home, operated by [cleverfox](https://github.com/cleverfox/)
   * `tls://kursk.cleverfox.org:15015`
   * `quic://kursk.cleverfox.org:15015`
   * `ws://kursk.cleverfox.org:15016`
+
+### Vladivostok
+
+* Vladivostok, operated by [evasil](https://github.com/evasil/), IPv4 only
+  * `tcp://yg-vvo.magicum.net:29330`
+  * `tls://yg-vvo.magicum.net:29331`
